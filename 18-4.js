@@ -50,7 +50,7 @@ function findLongestWord(str) {
             longestWords = [word];
         }
         else if (word.length === maxLength) {
-            longestWords.push(word)
+            longestWords.push(word);
         }
     }
     return longestWords;
